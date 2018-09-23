@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 640px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 57px;
+  padding: 10px;
+  border-bottom: 6px solid #e2e2e2 ;
+}
+.info-part{
+  display: flex;
+  flex-direction: column;
+}
+.available-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.title{
+  font-size: 18px;
+  font-weight: bold;
+  color: #717171;
+}
+.address{
+  color: #d1d1d1;
+}
+.station-list{
+  display: flex;
+  flex-direction: row;
+}
+.circle-station{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  background-color: #000;
+  border-radius: 50%;
+  color: black;
+}
+.inner{
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.station{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px 0 0;
+  color: #bebebe;
+}
+.labels{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 20px;
+  color: #b4af97;
+  font-size: 9px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 1px solid #b4af97;;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #40a9ff;
+  border-radius: 50%;
+  font-size: 17px;
+  color: #40a9ff;
+  line-height: 20px;
+}
