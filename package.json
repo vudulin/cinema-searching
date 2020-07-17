@@ -15,7 +15,7 @@
     "babel-loader": "^7.1.5",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "style-loader": "^0.22.1",
     "styled-components": "^3.4.1",
     "svg-inline-loader": "^0.8.0",
